@@ -9,7 +9,8 @@
         "declarationMap": false,
         "lib": [
             "es6",
-            "es2017"
+            "es2017",
+            "dom"
         ],
         "plugins": [{
             "name": "tslint-language-service"
@@ -17,8 +18,7 @@
     },
     "moduleResolution": "node",
     "typeRoots": [
-        "./node_modules/@types/",
-        "./node_modules/@celeri/"
+        "./node_modules/@types/"
     ],
     "include": [
         "src/**/*.ts"
