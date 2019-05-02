@@ -1,0 +1,27 @@
+{
+  "name": "@viva-eng/logger-web",
+  "version": "1.0.0",
+  "description": "A logger library for for web browsers",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viva-engineering/logger-web.git"
+  },
+  "keywords": [
+    "logger",
+    "web"
+  ],
+  "author": "James Brumond <james@jbrumond.me> (http://www.jbrumond.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viva-engineering/logger-web/issues"
+  },
+  "homepage": "https://github.com/viva-engineering/logger-web#readme",
+  "devDependencies": {
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
+  }
+}
