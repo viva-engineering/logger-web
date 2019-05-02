@@ -17,7 +17,7 @@ export type LogLevel = 'error' | 'warn' | 'info' | 'verbose' | 'debug' | 'silly'
 
 let _logLevel: LogLevelValue = LogLevelValue.info;
 
-export const setLogLevel = (logLevel : LogLevel) {
+export const setLogLevel = (logLevel : LogLevel) => {
 	_logLevel = LogLevelValue[logLevel];
 };
 
